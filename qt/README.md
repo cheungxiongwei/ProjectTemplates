@@ -33,11 +33,12 @@ qt/
 │   │   ├── main.qml             # 主界面
 │   │   ├── pages/               # 页面组件
 │   │   ├── components/          # 可复用组件
-│   │   └── styles/              # 样式文件
+│   │   ├── styles/              # 样式文件
+│   │   └── qml.qrc              # QML资源配置
 │   ├── resources/               # 资源文件
 │   │   ├── fonts/               # 字体资源
 │   │   ├── images/              # 图片资源
-│   │   └── qml.qrc              # QML资源配置
+│   │   └── resources.qrc        # QML通用资源
 │   ├── translations/            # 国际化文件
 │   ├── tests/                   # 测试代码
 │   └── android/                 # Android特定配置
@@ -54,8 +55,8 @@ qt/
     ├── CMakeLists.txt           # CMake配置文件
     ├── src/                     # 源代码实现
     ├── include/                 # 公共头文件
+    │   ├── qt-library           # 库目录
     ├── examples/                # 使用示例
     ├── tests/                   # 单元测试
-    ├── docs/                    # API文档
-    └── CMakeLists.txt           # 库构建配置
+    └── docs/                    # API文档
 ```
